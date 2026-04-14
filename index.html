@@ -1,116 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ayush Singh Deopa | AI & Data Intern</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<style>
-body { margin:0; font-family:'Inter',sans-serif; background:#0b1220; color:#e5e7eb; }
-header { text-align:center; padding:60px 20px; }
-h1 { font-size:3rem; margin-bottom:10px; }
-p.sub { color:#9ca3af; }
-nav { text-align:center; margin-bottom:30px; }
-nav a { color:#60a5fa; margin:0 15px; text-decoration:none; font-weight:500; }
-section { max-width:1000px; margin:auto; padding:50px 20px; }
-.card { background:#111827; padding:25px; border-radius:15px; margin-bottom:25px; box-shadow:0 10px 25px rgba(0,0,0,0.3); }
-h2 { margin-bottom:15px; }
-ul { line-height:1.8; }
-.grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
-button { background:#60a5fa; border:none; padding:12px 20px; border-radius:8px; cursor:pointer; font-weight:600; }
-footer { text-align:center; padding:30px; color:#6b7280; }
-@media(max-width:768px){ .grid{grid-template-columns:1fr;} }
-</style>
+    <title>Ayush Singh | Finance Intern Portfolio</title>
 </head>
-<body>
 
-<header>
-  <h1>Ayush Singh Deopa</h1>
-  <p class="sub">AI & Data Intern | Python | Data Analysis | ML Basics</p>
-  <button onclick="downloadCV()">Download CV</button>
-</header>
+<body style="margin:0; font-family:Arial; background-color:#f4f6f9;">
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#skills">Skills</a>
-  <a href="#projects">Projects</a>
-  <a href="#analytics">Analytics</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
-  <div class="card">
-    <h2>About Me</h2>
-    <p>I am an aspiring AI and Data Intern focused on building strong foundations in Python, data analysis, and machine learning. I enjoy solving real-world problems using data and continuously improving my technical and analytical skills.</p>
-  </div>
-</section>
-
-<section id="skills">
-  <div class="card">
-    <h2>Skills</h2>
-    <div class="grid">
-      <ul>
-        <li>Python (Basics)</li>
-        <li>Data Cleaning</li>
-        <li>Data Analysis</li>
-        <li>Excel & Google Sheets</li>
-      </ul>
-      <ul>
-        <li>Statistics Basics</li>
-        <li>Machine Learning Concepts</li>
-        <li>Problem Solving</li>
-        <li>Communication</li>
-      </ul>
+    <!-- HEADER -->
+    <div style="background-color:#0a192f; color:white; padding:40px; text-align:center;">
+        <h1>Ayush Singh Deopa</h1>
+        <p>Finance Intern | Data Management | Operations Support</p>
+        <p>📞 +91 9389534557 | 📧 ayushsingh26@navgurukul.org</p>
     </div>
-  </div>
-</section>
 
-<section id="projects">
-  <div class="card">
-    <h2>Projects</h2>
-    <p><strong>Data Analysis Project:</strong> Cleaned and analyzed datasets to find trends and insights.</p>
-    <p><strong>Workflow Optimization:</strong> Improved processes using structured thinking.</p>
-    <p><strong>Upcoming:</strong> Machine Learning mini project (in progress)</p>
-  </div>
-</section>
+    <!-- ABOUT -->
+    <div style="padding:30px;">
+        <h2>About Me</h2>
+        <p>
+            I am a detail-oriented and proactive learner with strong skills in data management,
+            coordination, and communication. I am passionate about supporting backend operations,
+            maintaining accurate records, and improving efficiency through structured data handling.
+        </p>
+    </div>
 
-<section id="analytics">
-  <div class="card">
-    <h2>Skill Progress (Visualization)</h2>
-    <canvas id="chart"></canvas>
-  </div>
-</section>
+    <!-- SKILLS -->
+    <div style="background-color:white; padding:30px;">
+        <h2>Core Skills</h2>
+        <ul>
+            <li>Data Entry & Record Management</li>
+            <li>Google Sheets / Excel (VLOOKUP, Pivot Tables)</li>
+            <li>Expense Tracking & Documentation</li>
+            <li>Vendor & Stakeholder Coordination</li>
+            <li>Professional Communication</li>
+            <li>Time Management & Task Prioritization</li>
+        </ul>
+    </div>
 
-<section id="contact">
-  <div class="card">
-    <h2>Contact</h2>
-    <p>Email: ayushsingh26@navgurukul.org</p>
-    <p>Phone: +91 9389534557</p>
-    <button onclick="contactMsg()">Hire Me</button>
-  </div>
-</section>
+    <!-- EXPERIENCE -->
+    <div style="padding:30px;">
+        <h2>Experience</h2>
 
-<footer>
-  <p>© 2026 Ayush Singh Deopa | Portfolio</p>
-</footer>
+        <h3>Peer Learning & Academic Support</h3>
+        <p>
+            Helped peers understand concepts, maintained structured notes, and improved team collaboration.
+        </p>
 
-<script>
-function contactMsg(){ alert("Thanks for visiting! Let's connect."); }
-function downloadCV(){ alert("Upload your CV file and link it here."); }
+        <h3>Campus Activities</h3>
+        <p>
+            Participated in debates and group discussions, building communication and problem-solving skills.
+        </p>
+    </div>
 
-const ctx = document.getElementById('chart');
-new Chart(ctx, {
-  type: 'bar',
-  data: {
-    labels: ['Python','Data Analysis','Excel','ML Basics','Problem Solving'],
-    datasets: [{
-      label: 'Skill Level',
-      data: [60, 65, 70, 50, 80]
-    }]
-  }
-});
-</script>
+    <!-- PROJECTS -->
+    <div style="background-color:white; padding:30px;">
+        <h2>Projects</h2>
+
+        <h3>Data Management Practice</h3>
+        <p>
+            Created structured Google Sheets to track data, practiced Excel formulas,
+            and ensured accuracy in handling multiple datasets.
+        </p>
+    </div>
+
+    <!-- EDUCATION -->
+    <div style="padding:30px;">
+        <h2>Education</h2>
+        <p>B.A. – Kumaun University (52%)</p>
+        <p>12th – 82%</p>
+        <p>10th – CGPA 9.2</p>
+    </div>
+
+    <!-- CONTACT -->
+    <div style="background-color:#0a192f; color:white; padding:30px; text-align:center;">
+        <h2>Contact Me</h2>
+        <p>Email: ayushsingh26@navgurukul.org</p>
+        <p>Phone: +91 9389534557</p>
+    </div>
 
 </body>
 </html>
